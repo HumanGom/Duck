@@ -1,7 +1,7 @@
-package mycom.ui;
+package mycom.duck.ui;
 
-import mycom.manager.DuckManager;
-import mycom.manager.DuckManagerImple;
+import mycom.duck.manager.DuckManager;
+import mycom.duck.manager.DuckManagerImple;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,6 +1,6 @@
-package mycom.manager;
+package mycom.duck.manager;
 
-import mycom.domain.duck.*;
+import mycom.duck.domain.*;
 
 import java.awt.*;
 import java.util.Random;
@@ -58,13 +58,16 @@ public class DuckManagerImple implements DuckManager{
     @Override
     public void flyDucks(Graphics g) {
         for (Duck duck:ducks){
-            if(duck instanceof MallardDuck){
-                MallardDuck mduck=(MallardDuck) duck;
-                mduck.fly(g);
-            }else if(duck instanceof RedDuck){
-                RedDuck rduck=(RedDuck) duck;
-                rduck.fly(g);
+            if (duck instanceof Flyable){
+                ((Flyable)duck).fly(g);
             }
+//            if(duck instanceof MallardDuck){
+//                MallardDuck mduck=(MallardDuck) duck;
+//                mduck.fly(g);
+//            }else if(duck instanceof RedDuck){
+//                RedDuck rduck=(RedDuck) duck;
+//                rduck.fly(g);
+//            }
         }
     }
 

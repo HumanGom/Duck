@@ -1,4 +1,4 @@
-package mycom.manager;
+package mycom.duck.manager;
 
 import java.awt.*;
 

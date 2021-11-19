@@ -1,4 +1,4 @@
-package mycom.domain.duck;
+package mycom.duck.domain;
 
 import java.awt.*;
 
@@ -14,7 +14,7 @@ public class DecoyDuck extends Duck{
     @Override
     public void display(Graphics g) {
         g.setColor(Color.GREEN);
-        g.fillOval(this.x,this.y,Duck.SIZE,Duck.SIZE);
+        g.fillOval(this.x,this.y, SIZE, SIZE);
     }
 
     @Override
