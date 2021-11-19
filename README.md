@@ -1,2 +1,5 @@
 # Duck
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b3f11b4-a5f3-4098-9fac-7fb4daca90ea/Untitled.png)
+1. 구현 내용
+
+2. 클래스 설계
+https://github.com/commGom/Duck/issues/1#issue-1058509163
