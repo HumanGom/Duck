@@ -8,10 +8,22 @@
 
 <img width="500" alt="스크린샷 2021-11-19 오후 10 05 08" src="https://user-images.githubusercontent.com/81788884/142627531-d4774141-77ce-4b91-85b6-a292217dbdb0.png">
 
-3. 개발 환경 
-jdk 11
-IntelliJ IDEA
-MAC OS
+3. 개발 환경  
+소프트웨어 개발 환경
+운영체제 : MAC OS  
+IDE : IntelliJ IDEA  
+SDK : jdk 11  
+
+사용 언어  
+
+개발 도구  
+
+라이브러리  
+swing. 
+
+프레임 워크  
+
+  
 
 4. 실행 결과
 
